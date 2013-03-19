@@ -37,6 +37,7 @@ Todo
 - Display read speed while read test is running. Add also progress bar.
 - Display the size of the SD card
 - Display the CLASS of the SD card (assume, based on the average of read/write)
+- Prevent exit: sdspeed: Can't open path /Volumes/(null): No such file or directory
 
 Credits
 =======
