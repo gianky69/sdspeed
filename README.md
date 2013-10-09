@@ -10,9 +10,11 @@ The author of this application is not responsible if your SD card get damaged by
 of this software. You should always make backup first before try any software that touches
 your SD card.
 
-Version and Author
-==================
+Version and Authors
+===================
 sdspeed 1.0 (18.MAR.2013) by Michael Mustun <michael.mustun@gmail.com>
+- Joseph Chiocchi (yyolk) for the sd_card.png Icon
+- (Maybe you... :)
 
 Compile
 =======
