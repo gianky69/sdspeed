@@ -6,25 +6,6 @@
 //  Copyright (c) 2013 Flagsoft. All rights reserved.
 //
 
-/*
- * sdspeed - sdspeed - SD Memeory Card - Fight Flash Fraud
- *
- * Copyright (C) 2013 Michael Mustun
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
-
 #ifndef sdspeed_f3write_h
 #define sdspeed_f3write_h
 
@@ -44,8 +25,6 @@ const char* f3write_getCurrentUnit(void);
 void        f3read_iterate_files(const char *path, const int *files, int start_at, int progress);
 double      f3read_getReadSpeedAverage(void);
 const char* f3read_getCurrentUnit(void);
-
-double f3read_getCurrentPercent(void);
 
 
 #endif

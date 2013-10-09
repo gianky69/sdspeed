@@ -16,7 +16,6 @@
 
 double g_READ_SPEED_AVERAGE = 0.0;
 const char *g_READ_UNIT = "";
-double g_READ_PERCENT = 0.0;
 
 
 static inline void update_dt(struct timeval *dt, const struct timeval *t1,
@@ -124,8 +123,6 @@ static void validate_file(const char *path, int number,
 				PRINT_STATUS(CLEAR);
 				fflush(stdout);
 				pt1 = pt2;
-                printf("DEBUG: PERCENT = %f\n", g_READ_PERCENT);
-                g_READ_PERCENT+=5.0;
 			}
 		}
 	}
@@ -140,9 +137,6 @@ static void validate_file(const char *path, int number,
 
 	tail_msg = read_all ? "" : " - NOT fully read";
 	PRINT_STATUS(progress ? CLEAR : "");
-    
-    printf("DEBUG: progress=%d\n", progress);
-    
 	printf("\n");
 }
 
@@ -236,11 +230,6 @@ double f3read_getReadSpeedAverage(void)
 const char* f3read_getCurrentUnit(void)
 {
     return(g_READ_UNIT);
-}
-
-double f3read_getCurrentPercent(void)
-{
-    return(g_READ_PERCENT);
 }
 
 /*
