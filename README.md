@@ -1,4 +1,4 @@
-sdspeed - SD Memeory Card - Fight Flash Fraud
+sdspeed - SD Memeory Card Speed Test - Fight Flash Fraud
 =======
 Measures the effective read and write speed of SD memory cards. sdspeed runs on Mac OS X.
 sdspeed is based on F3 (see details below) but with some changes so that it was possible 
