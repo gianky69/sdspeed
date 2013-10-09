@@ -106,6 +106,7 @@ int g_FLAG_volumeThere = 0;         // 0:no volume inserted / 1:volmue inserted
     NSString *volumeName = nil;
     NSString *volumeLocalizedName = nil;
     NSNumber *volumeIsReadOnly = false;
+    NSNumber *volumeIdentifier = 0;
     NSNumber *volumeCapacity = 0;
     
     for (NSURL *url in urls) {
@@ -123,7 +124,7 @@ int g_FLAG_volumeThere = 0;         // 0:no volume inserted / 1:volmue inserted
             [url getResourceValue:&volumeIsReadOnly forKey:NSURLVolumeIsReadOnlyKey error:&error];
 
             
-            [url getResourceValue:&volumeIsReadOnly forKey:NSURLVolumeIdentifierKey error:&error];
+            [url getResourceValue:&volumeIdentifier forKey:NSURLVolumeIdentifierKey error:&error];  // not used right now
 
 
 
