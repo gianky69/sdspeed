@@ -2,7 +2,7 @@
 //  main.m
 //  sdspeed
 //
-//  Created by M on 16.03.13.
+//  Created by Michael Mustun on 16.03.13.
 //  Copyright (c) 2013 Flagsoft. All rights reserved.
 //
 

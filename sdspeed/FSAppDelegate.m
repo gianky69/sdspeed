@@ -2,7 +2,7 @@
 //  FSAppDelegate.m
 //  sdspeed
 //
-//  Created by M on 16.03.13.
+//  Created by Michael Mustun on 16.03.13.
 //  Copyright (c) 2013 Flagsoft. All rights reserved.
 //
 
@@ -48,6 +48,7 @@
 
 @synthesize UI_readSpeed;
 @synthesize UI_readUnit;
+@synthesize UI_readProgressPercentage;
 
 
 NSOperationQueue *opQueue=nil;
@@ -58,6 +59,8 @@ NSTimer *myTimerStopThread = nil;
 NSString *g_VOLUMES_DRIVE_NAME = nil;
 
 int g_FLAG_shouldTerminate = 0;
+
+int *g_NUMBER_OF_FILES;
 
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
@@ -99,6 +102,9 @@ int g_FLAG_shouldTerminate = 0;
     [UI_progress setDoubleValue:f3write_getCurrentPercent()];
     [UI_progressValue setStringValue:[NSString stringWithFormat:@"%.1f %%", f3write_getCurrentPercent()]];
     
+
+    [UI_readProgressPercentage setDoubleValue:f3read_getCurrentPercent()];
+    NSLog(@"\n---\nDEUBG: f3read_getCurrentPercent=%f", f3read_getCurrentPercent());
     
 }
 
@@ -218,7 +224,7 @@ int g_FLAG_shouldTerminate = 0;
 
     int read_start_at;
 	const char *read_path;
-	const int *read_files;
+	int *read_files;
 	int read_progress;
     
     
@@ -226,6 +232,11 @@ int g_FLAG_shouldTerminate = 0;
     read_path = [g_VOLUMES_DRIVE_NAME UTF8String];
     
     read_files = ls_my_files(read_path, read_start_at);
+    
+    g_NUMBER_OF_FILES = read_files;
+    
+    printf("DEBUG: g_NUMBER_OF_FILES=%d\n", *g_NUMBER_OF_FILES);
+    
 	//If stdout isn't a terminal, supress progress.
 	read_progress = isatty(STDOUT_FILENO);
     read_progress = 1;

@@ -2,7 +2,7 @@
 //  FSAppDelegate.h
 //  sdspeed
 //
-//  Created by M on 16.03.13.
+//  Created by Michael Mustun on 16.03.13.
 //  Copyright (c) 2013 Flagsoft. All rights reserved.
 //
 
@@ -54,4 +54,5 @@
 @property (weak) IBOutlet NSTextField *UI_readSpeed;
 @property (weak) IBOutlet NSTextField *UI_readUnit;
 
+@property (weak) IBOutlet NSTextField *UI_readProgressPercentage;
 @end
