@@ -115,7 +115,7 @@ static int cmpintp(const void *p1, const void *p2)
 	return *(const int *)p1 - *(const int *)p2;
 }
 
-int *ls_my_files(const char *path, int start_at)
+const int *ls_my_files(const char *path, int start_at)
 {
 	DIR *dir = opendir(path);
 	int my_count;
