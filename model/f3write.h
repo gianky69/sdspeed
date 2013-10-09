@@ -45,5 +45,7 @@ void        f3read_iterate_files(const char *path, const int *files, int start_a
 double      f3read_getReadSpeedAverage(void);
 const char* f3read_getCurrentUnit(void);
 
+double f3read_getCurrentPercent(void);
+
 
 #endif

@@ -33,7 +33,7 @@ static inline long delay_ms(const struct timeval *t1, const struct timeval *t2)
 #define START_AT_TEXT "--start-at="
 int parse_start_at_param(const char *param);
 
-const int *ls_my_files(const char *path, int start_at);
+int *ls_my_files(const char *path, int start_at);
 
 void print_header(FILE *f, char *name);
 
