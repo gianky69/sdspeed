@@ -13,7 +13,7 @@ your SD card.
 Version and Authors
 ===================
 sdspeed 1.0 (18.MAR.2013) by Michael Mustun <michael.mustun@gmail.com>
-- Joseph Chiocchi (yyolk) for the sd_card.png Icon
+- Joseph Chiocchi (yyolk) for the sd_card.png icon, thank you! (Maybe you also provide the source file, svg?)
 - (Maybe you... :)
 
 Compile
