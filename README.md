@@ -12,13 +12,21 @@ your SD card.
 
 Version and Authors
 ===================
-sdspeed 1.0 (18.MAR.2013) by Michael Mustun <michael.mustun@gmail.com>
-- Joseph Chiocchi (yyolk) for the sd_card.png icon, thank you! (Maybe you also provide the source file, svg?)
+
+sdspeed 9.9.9 (DD.MMM.YYYY)
 - (Maybe you... :)
+
+sdspeed 1.0.1 (09.OCT.2013)
+- Joseph Chiocchi (yyolk) for the sd_card.png icon, thank you! (Maybe you also provide the source file, svg?)
+- Michael Mustun (flagsoft) minor changes, documentation
+
+sdspeed 1.0 (18.MAR.2013) by Michael Mustun <michael.mustun@gmail.com>
+- Initial version
 
 Compile
 =======
 Just fire up Xcode and compile it.
+- OS X 10.8.4 and XCode 4.6.3. No problem.
 
 Author System
 -------------
