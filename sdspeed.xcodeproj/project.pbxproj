@@ -17,6 +17,7 @@
 		060065E416F4EAC1006EF0C9 /* f3write.c in Sources */ = {isa = PBXBuildFile; fileRef = 060065E016F4EAC1006EF0C9 /* f3write.c */; };
 		060065E516F4EAC1006EF0C9 /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 060065E116F4EAC1006EF0C9 /* utils.c */; };
 		060065EA16F53020006EF0C9 /* sd-card.png in Resources */ = {isa = PBXBuildFile; fileRef = 060065E916F53020006EF0C9 /* sd-card.png */; };
+		06AC4D691806AE5700AEF191 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 06AC4D681806AE5700AEF191 /* README.md */; };
 		06CE7FA31805616A009556BF /* sdspeed-application-icons.icns in Resources */ = {isa = PBXBuildFile; fileRef = 06CE7FA21805616A009556BF /* sdspeed-application-icons.icns */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		060065E216F4EAC1006EF0C9 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = utils.h; path = model/utils.h; sourceTree = "<group>"; };
 		060065E616F4ECBB006EF0C9 /* f3write.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = f3write.h; path = model/f3write.h; sourceTree = "<group>"; };
 		060065E916F53020006EF0C9 /* sd-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sd-card.png"; sourceTree = "<group>"; };
+		06AC4D681806AE5700AEF191 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		06CE7FA21805616A009556BF /* sdspeed-application-icons.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "sdspeed-application-icons.icns"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +60,7 @@
 		060065B616F4E981006EF0C9 = {
 			isa = PBXGroup;
 			children = (
+				06AC4D681806AE5700AEF191 /* README.md */,
 				06CE7FA21805616A009556BF /* sdspeed-application-icons.icns */,
 				060065E916F53020006EF0C9 /* sd-card.png */,
 				060065DF16F4EAC1006EF0C9 /* f3read.c */,
@@ -173,6 +176,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06AC4D691806AE5700AEF191 /* README.md in Resources */,
 				060065CD16F4E981006EF0C9 /* InfoPlist.strings in Resources */,
 				060065D316F4E981006EF0C9 /* Credits.rtf in Resources */,
 				060065D916F4E981006EF0C9 /* MainMenu.xib in Resources */,
